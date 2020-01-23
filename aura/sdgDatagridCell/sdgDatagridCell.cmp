@@ -11,6 +11,6 @@
 
     <td data-label="{#v.renderfield.FieldLabel}" class="pullleft pullup">
 
-        <div>{!v.body}</div>
+        <div class="slds-truncate">{!v.body}</div>
     </td>
 </aura:component>
